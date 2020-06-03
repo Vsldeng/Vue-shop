@@ -156,7 +156,7 @@ export default {
       queryInfo: {
         query: '',
         pagenum: 1,
-        pagesize: 2
+        pageSize: 2
       },
       userlist: [],
       total: 0,
@@ -211,7 +211,7 @@ export default {
     },
     // 监听pagesize改变事件
     handleSizeChange(newSize) {
-      this.queryInfo.pagesize = newSize
+      this.queryInfo.pageSize = newSize
       this.getUserList()
     },
     // 监听页码值的改变
