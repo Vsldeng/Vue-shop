@@ -1,11 +1,14 @@
 <template>
-    <div>
-        welcome
-    </div>
+    <div>参数组件</div>
 </template>
 
 <script>
 export default {
+    data(){
+        return{
+
+        }
+    }
 }
 </script>
 
